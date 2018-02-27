@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-Recreate basic portfolio using bootstrap
+# Basic-Portfolio
+basic personal profile portfolio
