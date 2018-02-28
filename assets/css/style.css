@@ -14,7 +14,6 @@ main{
     margin: auto;
     margin-bottom: 30px;
     position: relative;
-    width: 960px;
 }
 h3, h1{
     font-size: 2em;
@@ -49,7 +48,6 @@ p{
 }
 nav{
     background-color: #ffffff;
-    border-bottom: 2px #cccccc solid;
 }
 footer{
     padding-bottom: 50px;
@@ -127,23 +125,22 @@ h4{
     margin-top: 30px;
     padding: 15px 30px 30px 30px;
     background-color: #ffffff;
-    width: 650px;
     border: 1px #dddddd solid;
 }
 .sidebar{
     border: 1px #dddddd solid;
-    padding: 0px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
     background-color: #ffffff;
     margin: auto;
-    margin-top: 30px;
-    position: absolute;
-    right: 10px;
-    width: 270px;
+    margin: 30px 15px;
+}
+.fix-padding{
+    padding-right: 0;
 }
 .contact-button{
-    margin: 5px 10px;
-    height: 55px;
-    width: 55px;
+    padding: 5%;
+    width: 80%;
+
 }
 .contact-button:hover{
     opacity: .5;
@@ -169,20 +166,11 @@ h4{
 }
 .portfolio-container{
     position: relative;
-    height: 200px;
-    width: 261px;
     margin: 15px;
     display: inline-block;
 }
 .portfolio-container:hover{
     opacity:.5;
-}
-.portfolio-item{
-    border-radius: 5% 0;
-    height: 200px;
-    width: 261px;
-    margin: auto;
-    
 }
 .back-to-portfolio{
     font-size: .8em;
@@ -204,6 +192,7 @@ h4{
     position: relative;
     padding: 0;
     overflow: auto;
+    border-bottom: 2px #cccccc solid;
 
 }
 #nav-name{
@@ -222,12 +211,12 @@ h4{
     border-radius: 5% 0;
     margin: 16px 10px 10px 10px;
     float: left;
-    height: 200px;
-    width: 300px;
+    max-width: 50%;
+    min-width: 150px;
 }
-@media screen and (min-width: 960px){
+@media screen and (min-width: 1200px){
     nav{
-        width:960px;
+        width:1200px;
         margin: auto;
     }
 }
