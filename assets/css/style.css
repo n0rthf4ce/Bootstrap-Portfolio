@@ -16,6 +16,7 @@ main{
     position: relative;
 }
 h3, h1{
+    font-weight: 600;
     font-size: 2em;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
@@ -98,7 +99,8 @@ form{
     color: #777777;
 }
 h4{
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: 600;
     color: lightgrey;
     border: 0;
     margin: 0;
@@ -108,6 +110,7 @@ h4{
 }
 .navbar{
     padding: 0;
+    padding-right: 2%;
 }
 .nav-line{
     height: 22px;
@@ -116,7 +119,7 @@ h4{
     margin: 28px 0 0 0;
     z-index: -1;
 }
-.flex-container{
+body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -198,7 +201,7 @@ h4{
 #nav-name{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 30px;
-    text-decoration: bold;
+    font-weight: 600;
     position: relative;
     left: 0;
     margin: 0;
